@@ -1,0 +1,78 @@
+.mobile_type .main {
+    padding: 0 2vw;
+  }
+  .mobile_type #c {
+    width: 100%;
+    display: inline-block;
+  }
+  .mobile_type {
+    background-size: 185%;
+    background-position-y: 15vw;
+}
+  .mobile_type #c tbody {
+    width: 100%;
+    display: inline-block;
+  }
+  .mobile_type #c tbody tr {
+    width: 100%;
+    display: inline-block;
+    word-break: break-word;
+    height: auto !important;
+  }
+  .mobile_type .bt_content {
+    width: 100%;
+    display: inline-block;
+  }
+  .mobile_type #zoom {
+    width: 100% !important;
+    padding-left: 3vw!important;
+    padding-right: 3vw!important;
+    padding-top: 0 !important;
+
+    font-size: 3.5vw !important;
+  }
+  .mobile_type #c tbody tr td {
+    /* width: 100%;
+    display: inline-block; */
+    word-break: break-word;
+    height: auto !important;
+}
+  /* .mobile_type #c tbody tr td:nth-child(4) {
+      display: none;
+  } */
+.mobile_type td.title{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+}
+.mobile_type #c tbody tr:nth-child(7){
+    display: none;
+}
+.mobile_type .tb_title{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mobile_type #zoom p img{
+  margin: 0;
+  max-width: 90%;
+  height: auto;
+}
+.mobile_type table.\.bt_size_14 td{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+/* 横向滚动条解决 */
+html,body{
+  padding: 0;
+  margin: 0;
+  width: 100%;  
+  height: 100%;  
+  left: 0;top: 0;  
+  overflow: hidden;  
+  overflow-y: auto;
+}
